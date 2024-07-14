@@ -1,0 +1,39 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	/* outline: 1px solid black; */
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.products {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 10px;
+}
+
+.item-div {
+	border: 1px solid black;
+	padding: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.item-div img {
+	width: 200px;
+	height: 200px;
+}
+
+.limit-reach {
+	text-align: center;
+}
